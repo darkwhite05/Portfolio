@@ -12,6 +12,26 @@
 body {
     padding-top: 70px; /* Adjust based on navbar height */
 }
+/* Default navbar text color */
+.navbar-light .navbar-brand,
+.navbar-light .navbar-nav .nav-link {
+    color: #222 !important;  /* Darker text for better contrast */
+    font-weight: bold;       /* Make text stand out */
+    font-size: 18px;         /* Slightly larger font */
+    transition: color 0.3s ease-in-out; /* Smooth transition effect */
+}
+
+/* Change text color on hover */
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #007bff !important; /* Bootstrap primary blue */
+    text-decoration: underline; /* Optional: Adds an underline on hover */
+}
+
+/* Change text color on hover */
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #000 !important; /* Even darker when hovered */
+}
+
 
 .carousel-item img {
     margin-top: 0 !important; /* Ensures no extra space */
@@ -219,7 +239,7 @@ body {
 </section>
 
 <!-- Navigation Section -->
-<section id="navigation" class="bg-dark text-white text-center py-3">
+<section id="navigation" class="bg-white text-dark text-center py-3">
     <h2 class="text-center mb-4">Quick Links</h2>
     <div class="container">
       <div class="row justify-content-center">
@@ -227,10 +247,10 @@ body {
         <div class="col-md-3">
           <h5>Articles</h5>
           <ul class="list-unstyled">
-            <li><a href="https://www.codecademy.com/articles/subject/web-development" class="text-white" target="_blank">Codecademy: Web Development Articles</a></li>
-            <li><a href="https://web.dev/articles" class="text-white" target="_blank">web.dev: Web Development Articles</a></li>
-            <li><a href="https://builtin.com/tag/web-development" class="text-white" target="_blank">Built In: Web Development Articles</a></li>
-            <li><a href="https://www.infoq.com/Web-Development/articles/" class="text-white" target="_blank">InfoQ: Web Development Articles</a></li>
+            <li><a href="https://www.codecademy.com/articles/subject/web-development" class="text-dark" target="_blank">Codecademy: Web Development Articles</a></li>
+            <li><a href="https://web.dev/articles" class="text-dark" target="_blank">web.dev: Web Development Articles</a></li>
+            <li><a href="https://builtin.com/tag/web-development" class="text-dark" target="_blank">Built In: Web Development Articles</a></li>
+            <li><a href="https://www.infoq.com/Web-Development/articles/" class="text-dark" target="_blank">InfoQ: Web Development Articles</a></li>
           </ul>
         </div>
         
@@ -238,23 +258,23 @@ body {
         <div class="col-md-3">
           <h5>Contact</h5>
           <ul class="list-unstyled">
-            <li><a href="mailto:geraldgalindes16@gmail.com" class="text-white">
+            <li><a href="mailto:geraldgalindes16@gmail.com" class="text-dark">
                 <i class="bi bi-google" style="font-size: 1.5rem;"></i> Gmail
             </a></li>
-            <li><a href="https://www.facebook.com/peyn05/" target="_blank" class="text-white">
+            <li><a href="https://www.facebook.com/peyn05/" target="_blank" class="text-dark">
                 <i class="bi bi-facebook" style="font-size: 1.5rem;"></i> Facebook
             </a></li>
-            <li><a href="tel:+639610521201" class="text-white">
+            <li><a href="tel:+639610521201" class="text-dark">
                 <i class="bi bi-telephone" style="font-size: 1.5rem;"></i> +63 961 052 1201
             </a></li>
           </ul>
 
           <!-- Follow Me Section -->
           <p class="mt-3">Follow me on:</p>
-          <a href="https://www.linkedin.com/in/peyn05/" target="_blank" class="text-white mx-2">
+          <a href="https://www.linkedin.com/in/peyn05/" target="_blank" class="text-dark mx-2">
             <i class="bi bi-linkedin" style="font-size: 1.5rem;"></i> LinkedIn
           </a>
-          <a href="https://github.com/darkwhite05" target="_blank" class="text-white mx-2">
+          <a href="https://github.com/darkwhite05" target="_blank" class="text-dark mx-2">
             <i class="bi bi-github" style="font-size: 1.5rem;"></i> GitHub
           </a>
         </div>
@@ -263,10 +283,10 @@ body {
         <div class="col-md-3">
           <h5>Resources</h5>
           <ul class="list-unstyled">
-            <li><a href="https://learncomputertoday.net/" target="_blank" class="text-white">Learn Computer Today</a></li>
-            <li><a href="https://www.w3schools.com/" target="_blank" class="text-white">W3Schools</a></li>
-            <li><a href="https://chat.openai.com/" target="_blank" class="text-white">ChatGPT</a></li>
-            <li><a href="https://stackoverflow.com/" target="_blank" class="text-white">Stack Overflow</a></li>
+            <li><a href="https://learncomputertoday.net/" target="_blank" class="text-dark">Learn Computer Today</a></li>
+            <li><a href="https://www.w3schools.com/" target="_blank" class="text-dark">W3Schools</a></li>
+            <li><a href="https://chat.openai.com/" target="_blank" class="text-dark">ChatGPT</a></li>
+            <li><a href="https://stackoverflow.com/" target="_blank" class="text-dark">Stack Overflow</a></li>
           </ul>
         </div>
       </div>
